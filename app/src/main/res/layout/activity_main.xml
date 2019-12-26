@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_geek"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:hint="@string/enter_username"
+        android:id="@+id/user_name"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/white">
+    </EditText>
+
+
+    <EditText
+        android:hint="@string/enter_password"
+        android:id="@+id/passwort_log"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:background="@android:color/white"
+        android:inputType="textPassword">
+    </EditText>
+
+    <Switch
+        android:id="@+id/remember_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_me"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/white">
+    </Switch>
+
+    <Button
+        android:id="@+id/log_btn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_green_dark"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/white"
+        android:text="@string/log_in">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget_me"
+        android:textColor="@android:color/white"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+    </TextView>
+
+
+</LinearLayout>
